@@ -141,6 +141,7 @@
     </div>
 
       <section class="popup">
+        <h2 class="visually-hidden">Настройки</h2>
         <form action="https://echo.htmlacademy.ru" method="post">
           <p class="input-text p-margin">
             <label>
@@ -168,20 +169,18 @@
           </p>
             <div class="count-wrapper">
               <p class="input-count">
-                <label>
-                  Взрослые:
+                <label for="adult">
+                  Взрослые:</label>
                   <button class="minus position" type="button" name="button" aria-label="Кнопка уменьшения числа">-</button>
-                  <input class="adult" type="text" name="adult" value="2">
-                  <button class="plus" type="button" name="button" aria-label="Кнопка увеличения числа">+</button>
-                </label>
+                  <input class="adult" type="text" id="adult" name="adult" value="2">
+                  <button class="plus" type="button" name="button" aria-label="Кнопка увеличения числа">+</button>               
               </p>
               <p class="input-count">
-                <label>
-                  Дети:
+                <label for="kids">
+                  Дети:</label>
                   <button class="minus" type="button" name="button" aria-label="Кнопка уменьшения числа">-</button>
-                  <input class="kids" type="text" name="kids" value="0">
+                  <input class="kids" type="text" id="kids" name="kids" value="0">
                   <button class="plus" type="button" name="button" aria-label="Кнопка увеличения числа">+</button>
-                </label>
               </p> 
             </div>
         </form>
