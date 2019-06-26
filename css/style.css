@@ -417,7 +417,7 @@ body {
 	background-color: #766357;
 }
 
-.booking:fovus,
+.booking:focus,
 .booking:hover {
 	background-color: #604e43;
 }
@@ -426,18 +426,22 @@ body {
 	background-color: #503e33;
 	color: #857871;
 }
+.popup-block {
+	position: relative;
+}
 
 .popup {
 	display: inline-block;
 	position: absolute;
-	bottom: -1475px;
+	top: -2px;
+	z-index: 5;
 	left: 50%;
 	-webkit-transform: translate(-50%);
 	    -ms-transform: translate(-50%);
 	        transform: translate(-50%);
 	width: 568px;
 	height: 395px;
-
+	vertical-align: baseline;
 
 	background-color: #ffffff;
 	-webkit-box-shadow:  0 5px 15px rgba(0, 1, 1, 0.20);
@@ -688,6 +692,7 @@ label {
 	display: inline-block;
 	width: 114px;
 	height: 41px;
+	vertical-align: baseline;
 }
 .htmlacademy-link:hover path{
 	fill: #81b3d2;	
@@ -1155,6 +1160,7 @@ padding-top: 6px;
 }
 .costs, .variation {
 	display: inline-block;
+	vertical-align: baseline;
 }
 .variation {
 	width: 110px;
@@ -1172,6 +1178,7 @@ padding-top: 6px;
 	min-height: 23px;
 	padding-top: 4px;
 	font-weight: 700;
+	vertical-align: baseline;
 }
 .booking {
 	width: 142px;
